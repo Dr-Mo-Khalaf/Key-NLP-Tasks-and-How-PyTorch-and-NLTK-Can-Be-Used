@@ -1,0 +1,202 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "How's it going?",
+        "Hi, how are you?",
+        "Hello, how can I help you today?",
+        "Good day!",
+        "Greetings",
+        "Hey, is anyone there?",
+        "What's up?",
+        "Yo!"
+      ],
+      "responses": [
+        "Hello! Welcome to the university! How can I help you get started?",
+        "Hi there! Welcome to the university. How can I assist you today?",
+        "Hey! Glad you're here. What can I do for you?",
+        "Hi! Feel free to ask me anything about university life.",
+        "Hello and welcome! How can I help with your university journey today?",
+        "Yo! Welcome to the university! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "See you later",
+        "Thanks for the help",
+        "Bye",
+        "Take care",
+        "Catch you later",
+        "Farewell",
+        "See you soon"
+      ],
+      "responses": [
+        "Goodbye! Best of luck with your studies!",
+        "Take care and feel free to come back if you need more help!",
+        "Goodbye! Have a great day ahead!",
+        "See you soon! Let me know if you need anything else.",
+        "Goodbye! I'm always here if you need assistance."
+      ]
+    },
+    {
+      "tag": "faculty_selection",
+      "patterns": [
+        "How do I choose a faculty?",
+        "Which faculty should I select?",
+        "I don't know which department to join",
+        "What are the different faculties available?",
+        "Which faculty is best for me?",
+        "Can you help me choose a faculty?",
+        "What are the options for selecting a faculty?",
+        "How do I select my faculty for the university?",
+        "What factors should I consider for selecting a faculty?"
+      ],
+      "responses": [
+        "Let's start by identifying your interests! What subjects or activities do you enjoy the most?",
+        "Are you more interested in practical learning like labs and workshops, or do you prefer creative work like arts and design?",
+        "I can help you explore your options. Do you like working with technology or more hands-on subjects, or do you prefer creativity and design?",
+        "Choosing a faculty can be exciting! What excites you more: building things or creating art?"
+      ]
+    },
+    {
+      "tag": "student_interests",
+      "patterns": [
+        "I prefer practical learning",
+        "I love hands-on work",
+        "I like creative subjects",
+        "I enjoy arts and design",
+        "I'm interested in practical skills",
+        "I prefer theoretical studies",
+        "I enjoy building things",
+        "I want to do something creative",
+        "I love working on real-world projects",
+        "I'm passionate about art and design"
+      ],
+      "responses": [
+        "That's great! Based on your interests, I can suggest either practical programs or creative programs. Would you like to hear more about them?",
+        "Awesome! You can explore both practical programs and creative fields. Let's dive deeper into your preferences. Would you like practical or creative programs?",
+        "Perfect! If you're into practical learning, we have programs like Engineering, Computer Science, and more. If you love creativity, we also have programs in Art and Design."
+      ]
+    },
+    {
+      "tag": "practical_programs",
+      "patterns": [
+        "What practical programs do you offer?",
+        "Tell me about the practical courses",
+        "I am interested in practical learning programs",
+        "Which programs are hands-on?",
+        "What are the best practical courses here?",
+        "Do you offer engineering programs?",
+        "Can I study Computer Science here?",
+        "Which courses are best for practical experience?",
+        "What are the top practical programs for hands-on learning?",
+        "Are there any programs focused on real-world skills?",
+        "Can I study Robotics or AI?",
+        "What programs emphasize fieldwork and internships?"
+      ],
+      "responses": [
+        "We offer several practical programs like Engineering, Computer Science, Medicine, and more, focusing on hands-on skills and real-world applications. Would you like to know more about any of these?",
+        "If you're interested in practical learning, we have courses like Mechanical Engineering, Civil Engineering, Computer Science, and even specialized programs in Robotics and Artificial Intelligence. Would you like to explore a specific field?",
+        "Some of the best practical courses include Engineering, Computer Science, Robotics, and Medicine, all emphasizing real-world applications and hands-on experience. Let me know if you'd like more details on a specific program.",
+        "Our practical programs include a wide range of fields like Software Engineering, Electrical Engineering, and even newer programs like Artificial Intelligence, all providing opportunities for internships and fieldwork. Would you like to hear more?"
+      ]
+    },
+    {
+      "tag": "artistic_programs",
+      "patterns": [
+        "What artistic programs do you have?",
+        "I want to know about creative courses",
+        "Tell me about arts and design programs",
+        "What are the creative programs available?",
+        "Can I study Fine Arts here?",
+        "Do you offer Graphic Design programs?",
+        "What are the art-related programs?",
+        "I want to pursue a career in design",
+        "Can I study fashion design here?"
+      ],
+      "responses": [
+        "We offer programs in Fine Arts, Graphic Design, Architecture, and more. These programs focus on creative expression and design. Would you like to learn more about a specific program?",
+        "If you're interested in creativity, we have several programs in arts and design, including Film Studies, Photography, and Fashion Design. Want to explore one?",
+        "We have excellent programs for creative minds like Fine Arts, Visual Design, and Architecture. Would you like to know more about any of these?"
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How can I manage my time effectively?",
+        "What are some good time management tips?",
+        "How do I balance my studies and free time?",
+        "How can I avoid procrastination?",
+        "What is the best way to organize my day?",
+        "Can you give me tips for better time management?",
+        "How can I study without getting distracted?"
+      ],
+      "responses": [
+        "Create a schedule! Break your tasks into smaller pieces, set deadlines, and prioritize your most important work first.",
+        "Use the Pomodoro technique: study for 25 minutes, then take a 5-minute break. This helps with focus and reduces stress.",
+        "It’s important to plan your day and stick to a routine. Setting specific study hours and sticking to them can improve your productivity.",
+        "Try setting achievable goals and reward yourself when you accomplish them. It keeps you motivated and on track!"
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "How can I study better?",
+        "What are the best study techniques?",
+        "How do I improve my focus while studying?",
+        "What is the most effective way to study for exams?",
+        "Can you share some study strategies?",
+        "How can I remember more during exams?",
+        "What are the best methods for learning efficiently?"
+      ],
+      "responses": [
+        "Make sure to break your study material into chunks and focus on one chunk at a time.",
+        "Review your notes regularly instead of cramming at the last minute. It helps with long-term retention.",
+        "Try teaching what you've learned to someone else. This reinforces your understanding.",
+        "Use active recall and spaced repetition to boost your memory and understanding of the subject."
+      ]
+    },
+    {
+      "tag": "best_study_time",
+      "patterns": [
+        "What is the best time to study?",
+        "When should I study for exams?",
+        "How can I optimize my study schedule?",
+        "Is it better to study at night or during the day?",
+        "When is the ideal time for studying?",
+        "What time should I start studying?",
+        "Is studying at night more effective?"
+      ],
+      "responses": [
+        "The best time to study is when you're most alert, which for most people is either in the morning or late in the afternoon.",
+        "Avoid late-night cramming sessions. Instead, aim for steady study sessions during the day when your mind is fresh.",
+        "Find your peak productivity hours. Some people focus better in the morning, while others perform best in the afternoon or evening.",
+        "Consistency is key. Try to set a daily study schedule and stick to it, whether it’s during the day or night."
+      ]
+    },
+    {
+      "tag": "student_support",
+      "patterns": [
+        "What student support services are available?",
+        "How can I get academic help?",
+        "Are there counselors for students?",
+        "Can I get help with mental health?",
+        "Where can I find academic advisors?",
+        "What services are available for students in need?"
+      ],
+      "responses": [
+        "We offer academic support services like tutoring, counseling, and study groups. You can also reach out to an academic advisor for personalized help.",
+        "There are counseling services available to help with mental health support, and you can always talk to a mentor or advisor about academic concerns.",
+        "We have a team of academic advisors to guide you throughout your university journey. Additionally, there are workshops for improving study skills."
+      ]
+    }
+  ]
+}
+
